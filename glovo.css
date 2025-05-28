@@ -1,0 +1,411 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #FFC244;
+    gap: 600px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 12%;
+}
+
+main {
+    width: 100%;
+}
+
+#nav-btn {
+    border: 1px #00A082 solid;
+    border-radius: 20px;
+    background-color: #00A082;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#nav-btn:hover {
+    background-color: #017963;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+main {
+    padding-top: 71px;
+}
+
+#sec1 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    background-color: #FFC244;
+    padding-bottom: 80px;
+}
+
+#sec1-srch {
+    height: 300px;
+}
+
+#sec1 h1 {
+    font-size: 58px;
+    font-weight: 700;
+}
+
+#sec1 p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 10px;
+}
+
+#butn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    padding: 10px 0;
+    border-radius: 10px;
+    padding-left: 10px;
+    width: 500px;
+    gap: 20px;
+}
+
+#pip {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#butn button {
+    border: none;
+    background-color: #E9F8F5;
+    color: #017963;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#sec2 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+#sec2 h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#sec3 h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#sec2 p {
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FFC244;
+    border-radius: 10px;
+    width: auto;
+    position: relative;
+    bottom: 15px;
+}
+
+
+
+#stef,
+#stef1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 30px;
+}
+
+#sec2 img {
+    border-radius: 50% 50% 80%;
+    height: 120px;
+}
+
+#wave img {
+    width: 100%
+}
+
+#sec3 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+#sec-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 35px;
+}
+
+#sec-3 h3 {
+    padding-top: 15px;
+    padding-bottom: 8px;
+
+}
+
+#sec-3 span {
+    background-color: #FFC244;
+    border: 1px #FFC244 solid;
+    border-radius: 10px;
+}
+
+#sec-3 p {
+    font-weight: 400;
+}
+
+#exp {
+    background-color: #00A082;
+    color: white;
+    border: 1px #00A082 solid;
+    border-radius: 20px;
+    padding: 10px;
+    width: 320px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#exp:hover{
+    background-color: #017963;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#sec4 {
+    padding: 150px;
+    padding-bottom: 120px;
+    background-image: url(https://glovoapp.com/images/landing/waves/landing-links-waves-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#sec4 h2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+#link {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#link a {
+    background-color: #FFF3DA;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+#bno {
+    background-color: #00A082;
+    color: white;
+    border: 1px #00A082 solid;
+    border-radius: 20px;
+    padding: 10px;
+    width: 220px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+#bno:hover {
+    background-color: #017963;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#sec5 {
+    display: flex;
+    height: auto;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+#tswira img {
+    position: relative;
+    top: -170px;
+    z-index: -20;
+}
+
+#apkdw h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    padding: 10px 20px;
+}
+
+#apkdw {
+    padding-top: 90px;
+}
+
+#apkdw p {
+    font-weight: 400;
+}
+
+#likn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#pic img {
+    position: relative;
+    top: 90px;
+    left: 45%;
+}
+
+#sec6 {
+    background-color: #E9F8F5;
+    margin-top: -8px;
+    text-align: center;
+    padding-bottom: 200px;
+    margin-bottom: -70px;
+}
+
+#sec6 h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.opop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.opop h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    padding: 10px 20px;
+}
+
+.opop p {
+    font-weight: 400;
+    color: black;
+    padding: 10px 20px;
+}
+
+#reget {
+    background-color: #00A082;
+    color: white;
+    border: 1px #00A082 solid;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+#reget:hover {
+    background-color: #017963;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+footer {
+    background-color: lab(10.77% 0 0);
+    color: azure;
+    margin-top: -4px;
+    padding-bottom: 100px;
+}
+
+#kl {
+    margin: 70px;
+}
+
+#or {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#oppor {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+#foot a {
+    text-decoration: none;
+    color: azure;
+}
+
+#drb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h4 {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+.txt {
+    margin: 70px;
+}
+
+.txt h2 {
+    margin-bottom: 10px;
+}
+
+#pop {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+#lang {
+    margin-top: 80px;
+}
+
+#lang select {
+    background-color: #1D1D1D;
+    color: azure;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 300px;
+}
+
+@media (min-width: 1025px) {
+    .animation__element[data-v-1cf24364] {
+        height: auto;
+    }
+}
